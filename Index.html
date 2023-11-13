@@ -1,117 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milk-Design</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="styles1.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="biydaaltlogo.png" alt="Milk-Design"></a></li>
-                <div class="search-icon">
-                    <a href="#"><img src="search-icon.jpg" alt="Search icon"></a>
-                </div>
-                
-                
-                <a class="toggle-btn" href="#">
-                    Read
-                  <span class="arrow"></span>
-                </a>
-            </ul>
-        </nav>
-    
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>webIQ</title>
 
-    <div class="search-window">
-        <div class="search-content">
-            <div class="exit-icon" id="close-popup" style="display: none;">
-                <a href="#" id="logout-icon"><img src="exit-icon.jpg" alt="Logout icon"></a>
-            </div>
-            
-            
-            <ul class="search-text">
-                Search
-            </ul>
-            <input class="search-button" type="text" id="search-input" placeholder="   I'm looking for...">
-            <button class="search-tapcss" id="search-tap">Search</button>
-            <div class="search-description">
-                <ul>
-                    <a>TRENDING ARTICLES</a>
-                </ul>
-            </div>
-            <div class="description-text">
-                <h4>All Appliances Included</h4>
-                <br>
-                <h4>Headphones the Royal Treatment</h4>
-                <br>
-                <h4>Iconic Photography Brand Leica Launches</h4>
-                <br>
-                <h4>Bang & Olufsen Places Premium Sound</h4>
-            </div>
+        <link href="style.css" rel="stylesheet">
+    </head>
 
-        </div>
-    </div>
-    
-
-    <div class="menu">
+    <body>
         <div class="grid">
-            <div class="content">
-                <a class="main-header">TOPICS</a>
-                <p class="main-text"><strong>Architecture</strong></p>
-                <p class="main-text"><strong>Art</strong></p>
-                <p class="main-text"><strong>Commercial</strong></p>
-                <p class="main-text"><strong>Home</strong></p>
-                <p class="main-text"><strong>Furnishings</strong></p>
-                <p class="main-text"><strong>Interior Design</strong></p>
-                <p class="main-text"><strong>Lifestyle</strong></p>
-                <p class="main-text"><strong>Pets</strong></p>
-                <p class="main-text"><strong>Style + Fashion</strong></p>
-                <p class="main-text"><strong>Tech</strong></p>
-                <p class="main-text"><strong>Travel</strong></p>
-
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="./images/travel.jpg" alt="Travel" <br>
+                    <div class="card-content">
+                        <a class="card-item post-primary-category color-black text-decoration-none" href="https://design-milk.com/category/travel/" data-wpel-link="internal">Travel</a>
+                        <h2 class="card-header"><strong>2023 Best Modern Travel Gifts for the Jetsetter</strong></h2>
+                        <p class="card-text"> 
+                            10 modern travel gifts to make the stress of travel 
+                            a little more comfortable, fun, 
+                            and maybe even a bit more fashionable.</p>
+                        
+                    </div>
+                </div>
             </div>
-            <div class="content">
-                <a class="main-header"><strong>COLUMNS</strong></a>
-                <p class="main-text-2">At The Office</p>
-                <p class="main-text-2">Circular by Design</p>
-                <p class="main-text-2">Deconstruction</p>
-                <p class="main-text-2">Designer Desktops</p>
-                <p class="main-text-2">Destination Design</p>
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="./images/home.jpg" alt="Home" <br>
+                    <div class="card-content">
+                        <a class="card-item post-primary-category color-black text-decoration-none" href="https://design-milk.com/category/home-furnishings/" data-wpel-link="internal">Home Furnishings</a>
+                        <h2 class="card-header"><strong>A Child's Drawings Inform Cold Picnic's
+                             Frames Rug Collection</strong></h2>
+                        <p class="card-text">
+                            Cold Picnic's new Frames Collection of rugs is inspired by the couple's daughter's colorful, abstract illustrations!</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="./images/featured.jpg" alt="Features" <br>
+                    <div class="card-content">
+                        <span class="card-item post-primary-category color-black">Featured</span>
+                        <h2 class="card-header"><strong>Award-Winning Furniture Designs From the A’ 
+                            Design Award & Competition</strong></h2>
+                        <p class="card-text">
+                            <strong></strong>Our favorite winning furniture 
+                                designs include a sea urchin-inspired seat with black spikes, 
+                                an illuminated side 
+                                table reminiscent of Pac-Man, and more.
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-</div>
-    </div>
-    
-
-    <main>
-        <section class="hero">
-            <h1>Welcome to Milk-Design</h1>
-            <p>Your source for creative design solutions.</p>
-            <a href="#" class="btn">Learn More</a>
-        </section>
-        <section class="services">
-            <h2>Our Services</h2>
-            <div class="service">
-                <h3>Web Design</h3>
-                <p>We create stunning websites tailored to your needs.</p>
-            </div>
-            <div class="service">
-                <h3>Graphic Design</h3>
-                <p>Beautiful graphics for your branding and marketing.</p>
-            </div>
-            <div class="service">
-                <h3>UI/UX Design</h3>
-                <p>User-friendly and visually appealing interfaces.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Milk-Design. All rights reserved.</p>
-    </footer>
-
-    <script src="biydaalt.js"></script>
-</body>
+    </body>
 </html>
